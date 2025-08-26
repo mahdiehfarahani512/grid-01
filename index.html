@@ -1,70 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>grid</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>grid</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <main class="container">
-        <section class="items1">
-          <div class="all">
-            <div><img style="width:79px;height:79px; border:4px solid white ;border-radius:100%; " src="image-jeremy-CA1woC3-.png" ></div>
-            <div>
-                <p>Report for</p>
-                <span style="font-size: 36px; color: white; text-wrap:1px;">Jeremy Robson</span>
-            </div>
-            </div>
-            <ul>
-                <li>Daily</li>
-                <li style="color: white;">Weekly</li>
-                <li>Monthly</li>
-            </ul>
-        </section>
-        <section style="background-color: rgb(255 138 98 );" class="items">
-          <img src="work.svg" >
-          <div class="matn">
-            <div class="subject"><span>Work</span><span>...</span></div>
-            <div><h1>32hrs</h1><p>Last week - 36 hrs</p></div>
-          </div>
-        </section>
-        <section style="background-color: rgb(86 194 230);" class="items">
-          <img src="play.svg" >
-          <div class="matn">
-            <div class="subject"><span>Play</span><span>...</span></div>
-            <div><h1>10hrs</h1><p>Last week - 8 hrs</p></div>
-          </div>
-        </section>
-        <section style="background-color: rgb(255 94 125);" class="items">
-          <img src="study.svg" >
-          <div class="matn">
-            <div class="subject"><span>Study</span><span>...</span></div>
-            <div><h1>4hrs</h1><p>Last week - 7 hrs</p></div>
-          </div>
-        </section>
-        <section style="background-color: rgb(75 207 131);" class="items">
-          <img src="exerscise.svg" >
-          <div class="matn">
-            <div class="subject"><span>Exercise</span><span>...</span></div>
-            <div><h1>4hrs</h1><p>Last week - 5 hrs</p></div>
-          </div>
-        </section>
-        <section style="background-color: rgb(114 53 209);" class="items">
-          <img src="social.svg" >
-          <div class="matn">
-            <div class="subject"><span>Social</span><span>...</span></div>
-            <div><h1>5hrs</h1><p>Last week - 10 hrs</p></div>
-          </div>
-        </section>
-        <section style="background-color: rgb(241 199 91);" class="items">
-          <img src="selfcare.svg" >
-          <div class="matn">
-            <div class="subject"><span>Self Care</span><span>...</span></div>
-            <div><h1>2hrs</h1><p>Last week - 2 hrs</p></div>
-          </div>
-        </section>
+  <main class="container">
+    <section class="item1">
+      <div class="bakhsh1">
+        <div>
+          <img src="image-jeremy-CA1woC3-.png" class="jermy">
+        </div>
+        <div>
+        <span style="color:rgb(162,155,245); font-size: 10px;">Report for</span>
+      <span style="color: white; font-size: 50px;" >Jeremy Robson</span>
+      </div>
+    </div>
+    <ul>
+      <li style="color: rgb(115,119,183);">daily</li>
+      <li style="font-weight: bold; color: white;">weekly</li>
+      <li style="color: rgb(115,119,183);">monthly</li>
+    </ul>
+    </section>
+    <section>
+      <div style="background-color: rgb(255 138 98 ); border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;" class="color">
         
-    </main>
+          <img src="work.svg">
+       
+        <div class="card">
+        <div class="sub">
+          <span class="word">work</span>
+          <span class="dot">...</span>
+        </div>
+        <div class="times">
+          <span class="time">32hrs</span>
+          <span class="lweek">Last week - 36 hrs</span>
+        </div>
+        </div>
+      </div>
+      <div>
+        <div style="background-color: rgb(86 194 230);" class="color">
+          <img src="play.svg">
+        </div>
+        <div class="card">
+        <div class="sub">
+          <span class="word">play</span>
+          <span class="dot">...</span>
+        </div>
+        <div class="times">
+          <span class="time">10hrs</span>
+          <span class="lweek">Last week -8hrs</span>
+        </div>
+        </div>
+      </div>
+      <div>
+        <div style="background-color: rgb(255 94 125);" class="color">
+          <img src="study.svg">
+        </div>
+         <div class="card">
+        <div class="sub">
+          <span class="word">study</span>
+          <span class="dot">...</span>
+        </div>
+        <div class="times">
+          <span class="time" >4hrs</span>
+          <span class="lweek">Last week - 7hrs</span>
+        </div>
+        </div>
+      </div>
+      <div>
+        <div style="background-color: rgb(75 207 131);" class="color">
+          <img src="exerscise.svg">
+        </div>
+         <div class="card">
+        <div class="sub">
+          <span class="word">exercise</span>
+          <span class="dot">...</span>
+        </div>
+        <div class="times">
+          <span class="time">4hrs</span>
+          <span class="lweek">Last week -5hrs</span>
+        </div>
+        </div>
+      </div>
+      <div>
+        <div style="background-color: rgb(114 53 209 );" class="color">
+          <img src="social.svg">
+        </div>
+         <div class="card">
+        <div class="sub">
+          <span class="word">social</span>
+          <span class="dot">...</span>
+        </div>
+        <div class="times">
+          <span class="time">5hrs</span>
+          <span class="lweek">Last week - 10hrs</span>
+        </div>
+        </div>
+      </div>
+      <div>
+        <div style="background-color: rgb(241 199 91);" class="color">
+          <img src="selfcare.svg">
+        </div>
+        <div class="card">
+        <div class="sub">
+          <span class="word">self care</span>
+          <span class="dot">...</span>
+        </div>
+        <div class="times">
+          <span class="time">2hrs</span>
+          <span class="lweek">Last week -2hrs</span>
+        </div>
+        </div>
+      </div>
+    </section>
+  </main>
 </body>
 </html>
