@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+height: 100vh;
+background-color: rgb(13 19 35);
+font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container{
+    display: grid;
+     height:100%;
+    grid-template-columns: repeat(4 ,200px);
+    grid-template-rows: repeat(2 ,200px);
+    justify-content: center;
+    align-content: center;
+    gap:40px;
+}
+.items1{
+    grid-row: 1/3;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgb(29 32 75);
+    border-bottom-right-radius: 8px;
+     border-bottom-left-radius: 8px;
+}
+.all{
+    display: flex;
+     flex-direction: column;
+     background-color: rgb(87 70 234 );
+   padding: 2rem;
+     gap: 2.5rem;
+     border-radius: 8px;
+     padding-bottom: 3rem;
+     
+}
+.items1 p{
+    font-size: 12px;
+    color: rgb(162 155 245 );
+}
+ul{
+    display: flex;
+     flex-direction: column;
+      gap: 20px;
+    list-style-type: none;
+    padding-top: 6px;
+    padding-left: 15px;
+    
+}
+ul li{
+    color: rgb(115 119 183);
+    font-size: 13px;
+    
+}
+.items{
+    
+    position: relative;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+   border-top-right-radius: 8px;
+     border-top-left-radius: 8px;
+      border-bottom-right-radius: 8px;
+     border-bottom-left-radius: 8px;
+
+}
+.items img{
+    position: absolute;
+    top: 0px;
+    right:15px;
+    width: 48px;
+    height: 48px;
+   opacity: 10;
+    
+    
+}
+.matn{
+    background-color: rgb(29 32 75);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    z-index: 1000;
+    border-radius: 8px;
+    padding: 12px;
+    gap: 12px;
+}
+.subject{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.subject span{
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+}
+.subject span:nth-child(2){
+    font-size: 26px;
+    color: rgb(181, 182, 235);
+    padding-bottom: 15px;
+
+}
+.matn div:nth-child(2) h1{
+    font-size: 36px;
+    font-weight: 100;
+    color: white;
+}
+.matn div:nth-child(2) p{
+    font-size: 12px;
+    color: rgb(197, 201, 247);
+}
